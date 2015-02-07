@@ -1,0 +1,9 @@
+{
+    "esnext": true,
+    "strict": true,
+    "indent": 4,
+    "node": true,
+    "predef": [
+        "bayon", "describe", "it"
+    ]
+}
