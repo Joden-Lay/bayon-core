@@ -1,35 +1,35 @@
 {
   "name": "bayon-core",
   "version": "0.0.1",
-  "description": "The Node.js MVC framework based Express and ECMAScript Harmony",
+  "description": "A server side JavaScript MVC framework that support ECMAScript 6",
   "main": "index.js",
   "homepage": "https://github.com/Joden-Lay/bayon",
   "scripts": {
     "test": "./node_modules/.bin/mocha --harmony --check-leaks --reporter list"
   },
   "bugs": {
-    "url": "http://github.com/Joden-Lay/bayon/issues"
+    "url": "http://github.com/Joden-Lay/bayon-core/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/Joden-Lay/bayon.git"
+    "url": "http://github.com/Joden-Lay/bayon-core.git"
   },
   "keywords": [
-    "harmony",
-    "mvc",
-    "framework",
+    "Harmony",
+    "iojs",
+    "nodejs",
     "bayon",
-    "es6",
-    "express"
+    "bayonjs",
+    "server",
+    "ECMAScript",
+    "MVC",
+    "Framework"
   ],
-  "author": {
-    "name": "Joden Lay",
-    "email": "eanglay@hotmail.com"
-  },
+  "author": "Joden Lay <joden.lay@gmail.com>",
   "contributors": [
     {
       "name": "Joden Lay",
-      "email": "eanglay@hotmail.com"
+      "email": "joden.lay@gmail.com"
     }
   ],
   "license": "MIT",
@@ -45,7 +45,7 @@
     "i18n": "^0.5.0",
     "node-uuid": "^1.4.2",
     "redis": "^0.12.1",
-    "sequelize": "^1.7.10",
+    "sequelize": "^2.0.0-rc8",
     "socket.io": "^1.2.1",
     "swig": "^1.4.2",
     "underscore": "^1.7.0",
