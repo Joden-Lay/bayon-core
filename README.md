@@ -22,8 +22,8 @@ Home.index = function() {
 ```
 
 
-### Quick Start
-
+Quick Start
+-----------
 inside [app root] directory open and modify route.js as below
 
 ```js
@@ -50,3 +50,8 @@ Greeting.talk = function() {
 };
 
 ```
+
+
+License
+-----------
+[MIT](LICENSE)
